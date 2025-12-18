@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Layout */
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #020617;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #cbd5f5;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background: #1e293b;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Cards */
+.form-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 500px;
+}
+
+.form-card input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background: #1e293b;
+}
+
+tr:hover {
+  background: #020617;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.edit {
+  background: #2563eb;
+  color: white;
+}
+
+.delete {
+  background: #dc2626;
+  color: white;
+}
+
+/* Search */
+.search-box {
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #38bdf8;
+}
